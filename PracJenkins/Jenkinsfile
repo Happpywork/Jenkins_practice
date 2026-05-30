@@ -31,7 +31,7 @@ pipeline {
             steps {
                 sh '''
                     echo "[+] 컴파일 시작..."
-                    cd practice
+                    cd PracJenkins
                     # practice 폴더 안에서 src를 찾아 컴파일하고, 결과는 밖의 classes 폴더로 보냄
                     find src -name "*.java" > sources.txt
                     javac -encoding UTF-8 -d ../${CLASS_DIR} -cp ../${JUNIT_JAR_PATH} @sources.txt
