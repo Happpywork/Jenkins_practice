@@ -63,4 +63,16 @@ class StudentManagerTest {
         });
 
     }
+    
+    @Order(5)
+    @Test
+    @DisplayName("학생 수 조회 테스트")
+    void testGetStudentCount() {
+        StudentManager manager = new StudentManager();
+
+        manager.addStudent("홍길동");
+        manager.addStudent("이순신");
+
+        assertEquals(2, manager.getStudentCount());
+    }
 }
