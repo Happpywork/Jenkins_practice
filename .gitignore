@@ -1,0 +1,19 @@
+# Eclipse
+.metadata/
+*.log
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.project
+.settings/
+
+# Java
+*.class
+*.jar
+*.war
+
+# OS
+.DS_Store
