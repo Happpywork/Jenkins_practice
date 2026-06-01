@@ -73,6 +73,6 @@ class StudentManagerTest {
         manager.addStudent("홍길동");
         manager.addStudent("이순신");
 
-        assertEquals(2, manager.getStudentCount());
+        assertEquals(2, manager.getCount());
     }
 }

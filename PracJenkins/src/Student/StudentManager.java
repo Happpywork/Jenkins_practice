@@ -28,7 +28,7 @@ public class StudentManager {
     }
     
     // 학생 수 반환
-    public int getStudentCount() {
+    public int getCount() {
         return students.size();
     }
 }
